@@ -3,7 +3,7 @@ let is_drawing = false
 const squares = []
 
 // const socket = new WebSocket (`ws://localhost/`)
-const socket = new WebSocket (`wss://https://websocket-template.deno.dev//`)
+const socket = new WebSocket (`wss://websocket-template.deno.dev//`)
 
 
 socket.onopen  = () => console.log (`client: websocket opened!`)
